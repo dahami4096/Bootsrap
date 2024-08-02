@@ -1,0 +1,80 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+
+body {
+    background-color: #f5e1c4;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btn.btn-primary {
+    background-color: #D9D9D9; /* Change to your desired primary color */
+    color: #524747; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size */
+    border-radius: 40px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+}
+
+.btn.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade or different color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+.custom-textarea {
+  border: 1px solid #777674;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 40px;
+  text-align: left;
+  width: 400px;
+  height: 5px
+  //width: 400px; /* Adjust width */
+  //height: 200px; /* Adjust height */
+}
+
+.inline-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.inline-container .form-label {
+  margin-right: 50px; /* Adjust spacing between label and textarea */
+  line-height: 1.5
+}
+
+.custom-input{
+  border: 1px solid #777674;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 40px;
+  text-align: left;
+  width: 400px;
+  height: 5px
+
+}
+
+/* styles.css */
+.card-custom {
+  border: 2px solid #5f6163; 
+  border-radius: 25px; 
+  background-color: #ffffffff; 
+}
+
+.card-header-custom {
+  
+  color: rgb(119, 111, 111); 
+}
+
+.card-footer-custom {
+  background-color: #e9ecef; /* Light background for footer */
+}
+
+.img.img-custom{
+  border-radius: 15px; /* Rounded corners */
+}
